@@ -13,6 +13,11 @@ class Client:
     def print_server_ip(self):
         print(f"Server IP Address: {self.config['ServerIPAddress']}")
 
+    def print_user_name(self):
+        print("the username is amir")
+
+
 if __name__ == "__main__":
     client = Client()
     client.print_server_ip()
+    client.print_user_name()
