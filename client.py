@@ -21,3 +21,4 @@ if __name__ == "__main__":
     client = Client()
     client.print_server_ip()
     client.print_user_name()
+    client.print_user_name()
